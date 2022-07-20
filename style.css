@@ -174,3 +174,19 @@ footer h1 {
     margin: 50px auto;
     justify-content: space-around;
 }
+
+.foot-icons {
+    display: flex;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.foot-icon {
+    display: block;
+    padding: 0 10px;
+    background-color: #ffffff;
+    color: #161616;
+    font-size: 30px;
+    border-radius: 50%;
+}
