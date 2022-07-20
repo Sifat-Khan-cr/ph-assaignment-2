@@ -251,8 +251,6 @@ footer h1 {
 @media screen and (max-width : 992px) and (min-width : 689px) {
     body {
         max-width: 100%;
-        margin: 0 auto;
-        border: 1px solid orange;
     }
 
     .blogs {
@@ -316,8 +314,6 @@ footer h1 {
 @media screen and (max-width : 688px) {
     body {
         max-width: 100%;
-        margin: 0 auto;
-        border: 1px solid orange;
     }
 
     .banner {
