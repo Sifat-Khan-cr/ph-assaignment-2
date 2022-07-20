@@ -6,7 +6,6 @@
 body {
     max-width: 1320px;
     margin: 0 auto;
-    border: 1px solid orange;
 }
 
 a {
@@ -117,7 +116,6 @@ a {
     width: 312px;
     border: 1px solid gray;
     border-radius: 10px;
-    /* padding: 10px; */
     box-sizing: border-box;
 }
 
@@ -126,9 +124,6 @@ a {
 }
 
 .card-info {
-    /* border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
-    border-left: 1px solid gray; */
     padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -163,6 +158,13 @@ a {
 
 /*----------------
  blog complete 
+ ------------------*/
+
+
+
+
+/*----------------
+ footer
  ------------------*/
 
 
@@ -305,6 +307,11 @@ footer h1 {
 
 
 }
+
+
+/*----------------
+ media-quarry-mobile
+ ------------------*/
 
 @media screen and (max-width : 688px) {
     body {
