@@ -9,6 +9,10 @@ body {
     border: 1px solid orange;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*----------------
  banner starts 
  ------------------*/
@@ -189,4 +193,36 @@ footer h1 {
     color: #161616;
     font-size: 30px;
     border-radius: 50%;
+}
+
+
+/*----------------
+ webpage-2-match-cards-css
+ ------------------*/
+.match-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.match-card {
+    box-sizing: border-box;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.flags {
+    display: flex;
+}
+
+.flag {
+    margin: 0 5px;
+}
+
+.match-card-text {
+    margin: 20px 0;
 }
